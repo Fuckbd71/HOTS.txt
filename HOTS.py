@@ -1294,7 +1294,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/Fuckbd71/Approval.txt/tree/main/Afroveal.txt').text
+    prox= requests.get('https://github.com/Fuckbd71/Approval.txt/blob/main/1.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -1544,7 +1544,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/Fuckbd71/Approval.txt/tree/main/Afroveal.txt').text
+        a=requests.get('https://github.com/Fuckbd71/Approval.txt/blob/main/1.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -1685,7 +1685,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/Fuckbd71/Approval.txt/tree/main/Afroveal.txt').text
+    httpCaht = requests.get('https://github.com/Fuckbd71/Approval.txt/blob/main/1.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
