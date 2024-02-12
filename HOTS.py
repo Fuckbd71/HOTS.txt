@@ -1,6 +1,6 @@
 #-----------------[ MR HASAN ]----------------#
 
-import requests,bs4,json,osrandom,datetime,time,re
+import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
 from rich.console import Console as sol
